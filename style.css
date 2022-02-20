@@ -6,7 +6,7 @@
     Arial, sans-serif;
   text-decoration: none;
 }
-header {
+.desktop_wrapper {
   top: 0;
   left: 0;
   width: 100%;
@@ -100,7 +100,7 @@ header {
 .bucket-list a {
   color: #222222;
 }
-.drop-menu-header {
+.drop_down-menu {
   padding-top: 15px;
   padding-bottom: 10px;
   margin-right: 0 auto;
@@ -151,7 +151,7 @@ section {
   top: 67%;
   cursor: pointer;
 }
-.containers:hover
+.rouded_card_container:hover
 {
   border-bottom: 2px solid #000;
 }
@@ -243,7 +243,7 @@ section {
   margin: 0 auto;
   height: auto;
 }
-.col-wrapper
+.discover_col
 {
   margin-top: 1rem;
   max-width: 100%;
@@ -251,57 +251,57 @@ section {
   display: flex;
   gap: 10px;
 }
-.row-col-large
+.left-col-larger
 {
   display: flex;
   gap: 20px;
   width: 50%;
 }
-.large-1
+.left-col-1
 {
   width: 80%;
   height: 50vh;
 }
-.large-1 img
+.left-col-1 img
 {
   border-radius: 15px;
 }
-.large-4
+.first-col-boxes
 {
   width: 40%;
 }
-.large-2
+.small-box-1
 {
   height: 25vh;
 }
-.large-2 img
+.small-box-1 img
 {
   border-radius: 15px;
 }
-.large-3
+.small-box-2
 {
   height: 25vh;
   flex-direction: column;
 }
-.large-3 img
+.small-box-2 img
 {
   border-radius: 15px;
 }
-.col-wrapper-2
+.discover_col-2
 {
   width: 54%;
 }
-.col-row-2
+.right-col-larger
 {
   display: flex;
   gap: 20px;
 }
-.div-1
+.right-box-1
 {
   width: 80%;
   height: 50vh;
 }
-.div-1 img
+.right-box-1 img
 {
   border-radius: 15px;
 }
@@ -309,22 +309,22 @@ section {
 {
   width: 40%;
 }
-.div-2
+.right-box-2
 {
   width: 80%;
   height: 25vh;
 }
-.div-2 img
+.right-box-2 img
 {
   border-radius: 15px;
 }
-.div-3
+.right-box-3
 {
   width: 80%;
   height: 25vh;
   flex-direction: column;
 }
-.div-3 img
+.right-box-3 img
 {
   border-radius: 15px;
 }
@@ -400,7 +400,7 @@ section {
   font-weight: 400;
   color: #595959 !important;
 }
-.container-six
+.etsy_gift_cards
 {
   display: flex;
   max-width: 100%;
@@ -408,7 +408,7 @@ section {
   margin-top: 1rem;
   
 }
-.container-1
+.row-card-content
 {
   width: 20%;
   height: 30vh;
@@ -419,11 +419,11 @@ section {
   border: 1px solid rgba(34, 34, 34, 0.15);
   cursor: pointer;
 }
-.container-1:hover
+.row-card-content:hover
 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
 }
-.container-1 img
+.row-card-content img
 {
   object-fit: cover;
   border-radius: 10px  10px 0  0;
@@ -753,7 +753,7 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.mobile-header
+.mobile_wrapper
 {
   display: none;
 }
@@ -812,7 +812,7 @@ section {
   {
     margin-top: 100px;
   }
-  .container-1
+  .row-card-content
   {
     height:40vh ;
   }
@@ -843,7 +843,7 @@ section {
   {
     font-size: 25px;
   }
-  .desktop-header
+  .desktop_wrapper
   {
     display: none;
   }
@@ -869,11 +869,11 @@ section {
     font-size: 24px;
     padding: 2rem;
   }
-  .mobile-header
+  .mobile_wrapper
 {
   display: block;
 }
-  .header-top
+  .mobile_text_head
   {
     display: flex;
     justify-content: space-between;
@@ -899,7 +899,7 @@ section {
   {
     background: #F3F3F3;
   }
-  .drop-menu-header
+  .drop_down-menu
   {
     display: none;
   }
@@ -917,7 +917,7 @@ section {
     flex-wrap: wrap;
     gap: 20px;
   }
-  .containers
+  .rouded_card_container
   {
     width: 95px;
   }
@@ -1030,7 +1030,7 @@ section {
    height: auto;
    font-size: 15px;
   }
-  .container-six
+  .etsy_gift_cards
   {
     flex-direction: row;
     max-width: 100%;
@@ -1040,7 +1040,7 @@ section {
   {
     display: none;
   }
-  .container-1
+  .row-card-content
   {
     width: 25%;
     height: 20vh;
@@ -1049,24 +1049,24 @@ section {
   {
     font-size: 12px;
   }
-  .col-wrapper
+  .discover_col
   {
     flex-direction: column;
     width: 800px;
   }
-  .row-col-large
+  .left-col-larger
   {
     /* width: 500px; */
     flex-direction: column-reverse;
   }
 
-  .large-4
+  .first-col-boxes
   {
     flex-direction: row;
     /* width: 400px; */
     padding: 0 25px;
   }
-  .large-4 img
+  .first-col-boxes img
   {
     width: 300px;
   }
@@ -1074,24 +1074,24 @@ section {
   {
     margin: 0;
   } 
-  .large-3
+  .small-box-2
   {
     width: 100%;
   }
-  .large-1 img
+  .left-col-1 img
   {
     width: 370px;
   }
-  .col-wrapper-2
+  .discover_col-2
   {
     width: 100%;
     height: 500px;
   }
-  .div-2
+  .right-box-2
   {
     width: 100%;
   }
-  .div-3
+  .right-box-3
   {
     width: 100%;
   }
