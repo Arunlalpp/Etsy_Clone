@@ -14,6 +14,7 @@
   background-color: #fff;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
 }
 .etsy-inner {
   width: 100%;
@@ -41,7 +42,6 @@
   margin-top: 2px;
   border: 2px solid #222222;
   border-radius: 25px;
-  /* margin-left: 10px; */
   display: flex;
   background: #F3F3F3;
   flex-direction: row;
@@ -49,12 +49,10 @@
 }
 .search-bar {
   border: none;
-  /* height: 100%; */
   width: 61.5rem;
   background: #F3F3F3;
   margin-left: 15px;
   padding: 1rem;
-  /* border-radius: 10px; */
 }
 .svg-cart
 {
@@ -72,7 +70,6 @@
   font-weight: 400 !important;
   padding-right: 2rem;
   margin-top: 1rem;
-  /* background: #F3F3F3; */
   border-radius: 0 20px 20px 0;
 }
 .search-top input {
@@ -84,6 +81,14 @@
   padding-left: 18px;
   align-self: center;
   display: flex;
+}
+.navigation li 
+{
+  transition: all 0.8s;
+}
+.navigation li:hover
+{
+  text-decoration: underline 2px solid #000;
 }
 .etsy-content li a {
   padding: 10px 17px;
@@ -107,6 +112,7 @@
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .navigation {
   list-style: none;
@@ -126,6 +132,205 @@
 .inner-container {
   background: #ddebe3;
   height: 12rem;
+}
+.jwellerry-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.accessories-drop-down:hover .jwellerry-drop-menu{
+  display: block;
+}
+.menu-details
+{
+  display: flex;
+  max-width: 100%;
+  margin: 10px 20px;
+}
+.section-1
+{
+  width: 30%;
+}
+.jwell-heading
+{
+  font-size: 13px;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.section-1 ul
+{
+  list-style: none;
+}
+.section-1 ul li
+{
+  padding: 10px 0;
+}
+.section-1 ul li a
+{
+  color: #222222;
+  font-family: sans-serif;
+}
+.section-1 ul li span
+{
+  float: right;
+  font-weight: 700;
+}
+.viewall
+{
+  font-size: 13px;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+}
+.jwell-container-2
+{
+  width: 40%;
+  margin: 0 15px;
+}
+.heading-1
+{
+  padding: 10px 0;
+  font-size: 16px;
+  color: #222222;
+}
+.jwell-container-2 ul
+{
+  padding: 10px 0;
+}
+.jwell-container-2 ul
+{
+  list-style: none;
+}
+.jwell-container-2 ul li
+{
+  padding: 5px 0;
+}
+.jwell-container-2 ul li a
+{
+  color: #222222;
+  font-family: sans-serif;
+}
+.heading-2 
+{
+  margin: 20px 0;
+}
+.jwell-container-3
+{
+  margin: 0 15px;
+}
+.jwell-container-3 ul
+{
+  list-style: none;
+}
+.jwell-container-3 ul li 
+{
+  padding: 10px 0;
+}
+.jwell-container-3 ul li a
+{
+  font-family: sans-serif;
+  color: #222222;
+}
+.shoes-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.clothing-drop-down:hover .shoes-drop-menu
+{
+  display: block;
+}
+.home-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.home-living-drop-down:hover .home-drop-menu
+{
+  display: block;
+}
+.party-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.wedding-party-drop-down:hover .party-drop-menu
+{
+  display: block;
+}
+.toys-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.toys-drop-down:hover .toys-drop-menu
+{
+  display: block;
+}
+.art-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.art-drop-down:hover .art-drop-menu
+{
+  display: block;
+}
+.craft-drop-menu
+{
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.craft-drop-down:hover .craft-drop-menu
+{
+  display: block;
 }
 .container-text h1 {
   font-size: 52px;
