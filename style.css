@@ -1,4 +1,5 @@
 * {
+  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,12 +17,17 @@
   margin: 0 auto;
   position: relative;
 }
+.etsy-inner {
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .company-logo {
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  cursor: pointer;
 }
 .logo-text {
   font-size: 40px;
@@ -32,10 +38,10 @@
 }
 .etsy-logo-left {
   display: flex;
-  align-items: center;
 }
 .search-top {
   height: 100%;
+  width: 100%;
   margin-top: 2px;
   border: 2px solid #222222;
   border-radius: 25px;
@@ -59,7 +65,6 @@
   width: 1rem;
 }
 ::-webkit-input-placeholder {
-  padding-left: 16px;
   font-size: 16px;
   font-family: inherit;
   font-weight: 400 !important;
@@ -69,52 +74,58 @@
   color: #222;
   font-weight: 400 !important;
   padding-right: 2rem;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   border-radius: 0 20px 20px 0;
 }
 .search-top input {
   border-radius: 20px;
+  height: 2.8rem;
 }
 .etsy-content {
   list-style: none;
-  align-items: center;
+  padding-left: 18px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
 }
-.navigation  {
-  transition: all 0.3s ease-in-out;
+.navigation li {
+  transition: all 0.3s;
 }
 .navigation li:hover {
   text-decoration: underline 2px solid #000;
 }
-.signin-left a {
+.etsy-content li a  {
+  padding: 10px 17px;
+  border-radius: 15px;
   font-size: 14px;
   display: grid;
-  font-weight: 600;
+  place-content: center;
+  font-weight: 500;
   font-family: sans-serif;
-  color: #595959;
-  transition: 0.8s;
+  align-items: center;
+  color: #222;
+  transition:all  0.8s;
   font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
     Arial, sans-serif;
 }
-.signin-left:hover {
+.etsy-content li a:hover {
   background: rgba(172, 158, 158, 0.2);
 }
-.svg-cart {
+.svg-cart svg {
   color: #595959;
   width: 1.5rem;
 }
 .drop_down-menu {
-  padding: 10px 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   margin-right: 0 auto;
 }
 .navigation {
   display: flex;
   align-items: center;
-}
-.navigation {
-  list-style: none;
   justify-content: space-between;
+  list-style: none;
+  max-width: 99%;
 }
 .navigation li a {
   color: #222;
@@ -305,10 +316,14 @@
   font-weight: 100 !important;
   line-height: 64px;
   padding: 22px 0 18px;
-  color: #222;
+  color: #222222;
   font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
     "Noto Serif Light", "Droid Serif", Georgia, serif;
 }
+/* section {
+  height: 40vh;
+  background: #fff;
+} */
 .content-card {
   max-width: 100%;
   margin: 0 auto;
@@ -381,7 +396,13 @@
   cursor: pointer;
   transition: all 0.3s;
 }
-.card-title p {
+.desk-view
+{
+  font-size: 15px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  font-weight: 700;
+}
+.card-title  {
   font-weight: 500;
   color: #222222;
   line-height: 20px;
@@ -397,6 +418,7 @@
 .card-image img {
   width: 100%;
   display: block;
+  min-height: 32vh;
   border-radius: 15px;
   padding: 0.25rem;
 }
@@ -418,9 +440,6 @@
   display: block;
   transform: translateY(-50%);
   opacity: 1;
-}
-.card-title {
-  padding: 0.725rem;
 }
 .one {
   text-decoration: line-through;
@@ -628,9 +647,11 @@
   gap: 10px;
   margin-top: 1rem;
   justify-content: space-between;
+  /* padding: 1rem; */
 }
 .row-card-content {
   max-width: 90%;
+  /* padding: 0.5rem; */
   border: 1px solid #222;
   background: #ffffff;
   border-radius: 10px 10px 0 0;
@@ -687,9 +708,12 @@
   display: flex;
   max-width: 90%;
   margin-top: 2rem;
+  /* gap: 50px; */
   justify-content: space-between;
 }
 .community-box-1 {
+  /* height: auto; */
+  /* width: 70%; */
   line-height: 30px;
 }
 .community-box-1 h1 {
@@ -705,7 +729,8 @@
   color: #595959;
 }
 .community-box-2 {
-  
+  /* height: auto;
+  width: 70%; */
   line-height: 30px;
 }
 .community-box-2 h1 {
@@ -720,6 +745,7 @@
   color: #595959;
 }
 .community-box-3 {
+  /* width: 65%; */
   line-height: 30px;
   margin: 0 1rem;
 }
@@ -855,21 +881,17 @@
 .wt-btn-input:hover
 {
   background-color: #000;
-  color: #fff;
 }
-.end-text-electric 
-{
+.end-text-electric {
   text-align: center;
   margin-top: 8rem;
 }
-.end-text-electric h4 
-{
+.end-text-electric h4 {
   font-size: 15px;
   font-weight: 500;
   color: #222222;
 }
-.footer-svg-bg svg 
-{
+.footer-svg-bg svg {
   fill: #4d6bc6 !important;
   transform: rotate(180deg);
   min-height: 3rem;
@@ -914,7 +936,7 @@
   margin-top: 2rem;
 }
 .app-dowbload {
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   padding: 8px 10px;
   border-radius: 20px;
   color: #fff;
@@ -999,7 +1021,14 @@
 .mobile-view-footer {
   display: none;
 }
-
+.mobile-view-text
+{
+  display: none;
+}
+.rupee-mobi
+{
+  display: none;
+}
 @media screen and (max-width: 1500px) {
   .mobile-discover {
     display: none;
@@ -1039,22 +1068,9 @@
   .logo-text {
     font-weight: 700;
   }
-  .gift-stars
+  .search-top 
   {
-    display: none;
-  }
-  .card-title
-  {
-    padding: 0;
-    font-size: 14px;
-  }
-  .green-rupee 
-  {
-    font-weight: 800;
-  }
-  .card-title .desk-view
-  {
-    display: none;
+    width: 95%;
   }
   .desktop_wrapper {
     display: none;
@@ -1090,7 +1106,7 @@
     color: #222222;
   }
   .svg-cart-mobile {
-    width: 1.5rem;
+    width: 1rem;
   }
   .container {
     max-width: 1070%;
@@ -1098,6 +1114,49 @@
   .card {
     max-width: 40%;
     margin: auto;
+  }
+  .desk-view
+  {
+    display: none;
+  }
+  .gift-stars
+  {
+    display: none;
+  }
+  .mobile-view-text
+  {
+    display: block;
+  }
+  .green-rupee
+  {
+    display: none;
+  }
+  .mobile-view-text
+  {
+    font-size: 14px;
+  }
+  .black-text 
+  {
+    font-weight: 600;
+  }
+  .rupee-mobi
+  {
+    display: block;
+    display: flex;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  .rupee-mobi h4
+  {
+    text-decoration: line-through;
+    color: green;
+    font-size: 13px;
+    font-size: 12px;
+  }
+  .rupee-mobi h2
+  {
+    color: green;
+    font-size: 12px;
   }
   .container--popular-gifts {
     flex-wrap: wrap;
@@ -1115,6 +1174,7 @@
   }
   .selection-card {
     flex-direction: column-reverse;
+    /* margin: auto; */
     max-width: 117%;
   }
   .card-price-3
@@ -1153,6 +1213,40 @@
   }
   .mobile_wrapper {
     display: block;
+    max-width: 95%;
+    margin: auto;
+  }
+  .etsy-content-mobile {
+    list-style: none;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .etsy-content-mobile li a  {
+    padding: 10px 17px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: grid;
+    place-content: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-items: center;
+    color: #222;
+    transition:all  0.8s;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+      Arial, sans-serif;
+  }
+  .svg-cart-mobile svg
+  {
+    width: 1.5rem;
+  }
+  .hamburge svg
+  {
+    width: 1.2rem;
+  }
+  .etsy-content-mobile li a:hover {
+    background: rgba(172, 158, 158, 0.2);
   }
   .mobile_text_head {
     display: flex;
@@ -1161,16 +1255,6 @@
   }
   .mobile-view-toggle {
     justify-content: center;
-  }
-  .checkbtn {
-    font-size: 22px;
-    color: #222;
-    cursor: pointer;
-    font-weight: 100 !important;
-    display: none;
-  }
-  #check {
-    display: none;
   }
   .feedback-text {
     font-weight: 400;
@@ -1190,6 +1274,7 @@
   }
   .header-bottom {
     padding: 10px 0;
+    
   }
   .search-top {
     background: #f3f3f3;
@@ -1223,11 +1308,15 @@
     color: #222;
     font-size: 12px;
   }
+  .card-image img
+  {
+    padding: 0;
+  }
   .content-card {
-    top: 125px;
+    top: 137px;
   }
   .popular-gift-wrapper {
-    margin-top: 21rem;
+    margin-top: 20rem;
   }
   .community-box-1 {
     width: auto;
@@ -1374,8 +1463,12 @@
     overflow: hidden;
     display: none;
   }
-  .panel li {
+  .panel li  {
     list-style: none;
+  }
+  .panel ul li a  {
+    list-style: none;
+    font-size: 18px;
   }
   .panel li a {
     color: #fff;
@@ -1403,7 +1496,7 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.8s;
   }
   .hamburg {
@@ -1414,10 +1507,12 @@
     text-align: left;
     margin-left: -10px;
     margin-right: -10px;
-    transform: translate();
+    transform: .2s;
+    
   }
   .hamburg:hover {
-    background-color: #cccdce;
+    /* background-color: #cccdce; */
+    /* transform: rotate(80deg); */
   }
   .hamburg span {
     float: right;
@@ -1445,7 +1540,6 @@
   }
 }
 @media screen and (max-width: 1400px) {
-
   .popular-gift-wrapper {
     margin-top: 21rem;
   }
@@ -1454,6 +1548,7 @@
   }
   .search-top
   {
-    width: 80%;
+    width: 82%;
   }
+  
 }
