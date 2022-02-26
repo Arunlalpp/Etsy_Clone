@@ -10,110 +10,123 @@
 .desktop_wrapper {
   top: 0;
   left: 0;
-  width: 100%;
-  padding: 3px 34px;
+  width: 99%;
+  padding: 3px 28px;
   background-color: #fff;
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
 }
-.etsy-inner {
-  width: 100%;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-.company-logo {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.logo-text {
-  font-size: 40px;
-  line-height: 1.4;
-  font-family: "Lora", serif;
-  font-weight: 500 !important;
-  color: #f1641e !important;
-}
-.etsy-logo-left {
+.wrapper-logo
+{
   display: flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
 }
-.search-top {
-  height: 100%;
-  width: 100%;
-  margin-top: 2px;
-  border: 2px solid #222222;
-  border-radius: 25px;
+.logo-svg svg
+{
+  fill: #F1641E !important;
+  width: 5rem;
+}
+.search-container
+{
+  width: 82%;
+  margin-left: 0.5rem;
   display: flex;
-  background: #f3f3f3;
-  flex-direction: row;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
+
 }
-.search-bar {
-  border: none;
-  width: 61.5rem;
-  background: #f3f3f3;
-  margin-left: 15px;
-  padding: 1rem;
-}
-.search-bar:focus {
-  outline: none;
-}
-.svg-cart {
-  width: 1rem;
-}
-::-webkit-input-placeholder {
+.search-container input
+{
+  width: 100%;
   font-size: 16px;
-  font-family: inherit;
-  font-weight: 400 !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 12px;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 96px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 2px solid black;
+  border-right: transparent;
+  background-color: #f3f3f3;
 }
-.search-top .fas {
-  font-size: 20px;
-  color: #222;
-  font-weight: 400 !important;
-  padding-right: 2rem;
-  margin-top: 0.8rem;
-  border-radius: 0 20px 20px 0;
+.search-button svg
+{
+  fill: #000 !important;
+  width: 2rem;
+  padding: 0.2rem;
+  margin-right: 1rem;
 }
-.search-top input {
-  border-radius: 20px;
-  height: 2.8rem;
+.search-button
+{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 96px;
+  border: 2px solid black;
+  border-left: transparent;
+  background: none;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.3s;
+  
 }
-.etsy-content {
-  list-style: none;
-  padding-left: 18px;
+.search-button:hover
+{
+  background: #dad4d4;
+}
+.right-nav
+{
+  padding-left: 1.4rem;
   display: flex;
   align-items: center;
-  margin-top: 5px;
 }
-.navigation li {
-  transition: all 0.3s;
-}
-.navigation li:hover {
-  text-decoration: underline 2px solid #000;
-}
-.etsy-content li a  {
-  padding: 10px 17px;
-  border-radius: 15px;
+.sigin-text
+{
   font-size: 14px;
-  display: grid;
-  place-content: center;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  min-height: 36px;
   font-weight: 500;
-  font-family: sans-serif;
-  align-items: center;
-  color: #222;
-  transition:all  0.8s;
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  min-width: 36px;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: grid;
+  place-items: center;
+  background: none;
+  transition: all 0.3s;
+  text-align: center;
+  /* background: #dad4d4; */
+  border-radius: 20px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  cursor: pointer;
 }
-.etsy-content li a:hover {
-  background: rgba(172, 158, 158, 0.2);
+.sigin-text:hover
+{
+  background: #dad4d4;
 }
-.svg-cart svg {
-  color: #595959;
+.singin-icon svg
+{
+/* padding: 0.1rem; */
+border-radius: 50%;
+height: 46px;
+width: 56px;
+display: grid;
+place-items: center;
+cursor: pointer;
+transition: all 0.3s;
+}
+.singin-icon svg:hover
+{
+  background: #dad4d4;
+}
+.singin-icon svg
+{
   width: 1.5rem;
+  margin-left: 1.7rem;
 }
 .drop_down-menu {
   padding-top: 15px;
@@ -139,7 +152,7 @@
   position: relative;
 }
 .inner-container {
-  background: #ddebe3;
+  background: #FDEBD2;
   height: 12rem;
 }
 .jwellerry-drop-menu {
@@ -310,20 +323,20 @@
 .craft-drop-down:hover .craft-drop-menu {
   display: block;
 }
-.container-text h1 {
+.container-text h4 {
   font-size: 52px;
   text-align: center;
-  font-weight: 100 !important;
+  font-weight: 100;
   line-height: 64px;
   padding: 22px 0 18px;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+  /* padding-bottom: 18px;
+  padding-top: 30px; */
   color: #222222;
   font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
-    "Noto Serif Light", "Droid Serif", Georgia, serif;
+    "Noto Serif Light", "Droid Serif", Georgia, serif !important;
 }
-/* section {
-  height: 40vh;
-  background: #fff;
-} */
 .content-card {
   max-width: 100%;
   margin: 0 auto;
@@ -331,7 +344,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 67%;
+  top: 65%;
   cursor: pointer;
 }
 .rouded_card_container:hover {
@@ -408,6 +421,7 @@
   line-height: 20px;
   font-size: 16px;
   font-family: sans-serif;
+  padding: 0.5rem;
 }
 .card-title .green-rupee span {
   color: green;
@@ -936,10 +950,11 @@
   margin-top: 2rem;
 }
 .app-dowbload {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   padding: 8px 10px;
   border-radius: 20px;
   color: #fff;
+  cursor: pointer;
 }
 .app-dowbload span {
   font-weight: 700;
@@ -949,6 +964,10 @@
   padding: 2px 5px;
   font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
     "Noto Serif Light", "Droid Serif", Georgia, serif;
+}
+.app-dowbload:hover
+{
+  border: 2px solid #fff;
 }
 .sci {
   display: flex;
@@ -985,6 +1004,11 @@
   max-width: 100%;
   width: 2rem;
 }
+.svg-earth svg {
+
+  fill: #fff;
+}
+
 .global-details-left {
   display: flex;
   padding: 1rem 0;
@@ -1029,6 +1053,10 @@
 {
   display: none;
 }
+.mobile-view-nav
+{
+  display: none;
+}
 @media screen and (max-width: 1500px) {
   .mobile-discover {
     display: none;
@@ -1040,7 +1068,7 @@
     width: 76%;
   }
   .inner-container {
-    height: 16rem;
+    height: 12rem;
   }
   .end-text-electric {
     margin-top: 5rem;
@@ -1068,18 +1096,64 @@
   .logo-text {
     font-weight: 700;
   }
-  .search-top 
-  {
-    width: 95%;
-  }
-  .desktop_wrapper {
-    display: none;
-  }
   .story-etsy-details {
     margin-top: 7rem;
   }
-  .search-top {
-    width: 90%;
+  .mobile-view-nav
+  {
+    display: block;
+  }
+  .desktop_wrapper
+  {
+    display: none;
+  }
+  .singin-icon svg
+  {
+    margin-left: 0.1rem;
+    margin-right: 0.5rem;
+  }
+  .search-container
+  {
+    width: 82%;
+    margin-left: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .mobile-view-upper
+  {
+    display: flex;
+  }
+  .wrapper-logo
+  {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .mobile-view-lowe
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sigin-text
+  {
+    margin-right: 1.5rem;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .right-nav
+  {
+    margin-right: 1rem;
+  }
+  .logo-svg svg
+  {
+    margin-left: 0.5rem;
+    width: 4rem;
+  }
+  .search-container input
+  {
+    padding-top: 15px;
   }
   .list-col-item {
     font-size: 18px;
@@ -1091,6 +1165,12 @@
   .col-text {
     font-size: 18px;
     text-align: center;
+  }
+  .container-text h4
+  {
+    font-size:36px;
+    line-height: 43px;
+    white-space: normal;
   }
   .discover_col .card-price {
     display: none;
@@ -1118,6 +1198,16 @@
   .desk-view
   {
     display: none;
+  }
+  .hamburge
+  {
+    display: flex;
+    cursor: pointer;
+  }
+  .hamburge svg
+  {
+    width: 1.5rem;
+    margin-left: -2.7rem;
   }
   .gift-stars
   {
@@ -1237,14 +1327,7 @@
     font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
       Arial, sans-serif;
   }
-  .svg-cart-mobile svg
-  {
-    width: 1.5rem;
-  }
-  .hamburge svg
-  {
-    width: 1.2rem;
-  }
+  
   .etsy-content-mobile li a:hover {
     background: rgba(172, 158, 158, 0.2);
   }
@@ -1273,11 +1356,13 @@
     font-size: 14px;
   }
   .header-bottom {
-    padding: 10px 0;
+    display: flex;
+    padding-bottom: 10px;
     
   }
   .search-top {
     background: #f3f3f3;
+    margin-top: 0;
   }
   .drop_down-menu {
     display: none;
@@ -1292,7 +1377,8 @@
     width: 100%;
     height: 295px;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
+    margin-left: -2rem;
   }
   .rouded_card_container {
     width: 95px;
@@ -1313,7 +1399,7 @@
     padding: 0;
   }
   .content-card {
-    top: 137px;
+    top: 155px;
   }
   .popular-gift-wrapper {
     margin-top: 20rem;
@@ -1497,6 +1583,7 @@
     text-align: left;
     outline: none;
     font-size: 18px;
+    font-weight: 700;
     transition: 0.8s;
   }
   .hamburg {
@@ -1511,8 +1598,7 @@
     
   }
   .hamburg:hover {
-    /* background-color: #cccdce; */
-    /* transform: rotate(80deg); */
+    background:rgba(0, 0, 0, 0.2) ;
   }
   .hamburg span {
     float: right;
@@ -1521,17 +1607,19 @@
     margin-right: 15px;
   }
   .right-fooeter-content {
-    display: none;
-  }
-  .mobile-view-footer-search {
-    display: block;
-    margin: 2rem 0;
+    /* display: none; */
   }
   .right-footer-content {
     align-items: center;
+    margin-left: 1rem;
+  }
+  .global-details-left:hover
+  {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 300px;
   }
   .app-dowbload {
-    margin: 0 7rem;
+    margin: 0 3.8rem;
   }
   .sci {
     align-items: center;
@@ -1550,5 +1638,8 @@
   {
     width: 82%;
   }
-  
+  .container-text
+  {
+    margin-bottom: 2rem;
+  }
 }
