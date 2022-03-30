@@ -1,0 +1,1641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  text-decoration: none;
+}
+.desktop_wrapper {
+  top: 0;
+  left: 0;
+  width: 99%;
+  padding: 3px 28px;
+  background-color: #fff;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper-logo
+{
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.logo-svg svg
+{
+  fill: #F1641E !important;
+  width: 5rem;
+}
+.search-container
+{
+  width: 82%;
+  margin-left: 0.5rem;
+  display: flex;
+
+}
+.search-container input
+{
+  width: 100%;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 12px;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 96px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 2px solid black;
+  border-right: transparent;
+  background-color: #f3f3f3;
+}
+.search-button svg
+{
+  fill: #000 !important;
+  width: 2rem;
+  padding: 0.2rem;
+  margin-right: 1rem;
+}
+.search-button
+{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 96px;
+  border: 2px solid black;
+  border-left: transparent;
+  background: none;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+.search-button:hover
+{
+  background: #dad4d4;
+}
+.right-nav
+{
+  padding-left: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.sigin-text
+{
+  font-size: 14px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  min-height: 36px;
+  font-weight: 500;
+  min-width: 36px;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: grid;
+  place-items: center;
+  background: none;
+  transition: all 0.3s;
+  text-align: center;
+  /* background: #dad4d4; */
+  border-radius: 20px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  cursor: pointer;
+}
+.sigin-text:hover
+{
+  background: #dad4d4;
+}
+.singin-icon svg
+{
+/* padding: 0.1rem; */
+border-radius: 50%;
+height: 46px;
+width: 56px;
+display: grid;
+place-items: center;
+cursor: pointer;
+transition: all 0.3s;
+}
+.singin-icon svg:hover
+{
+  background: #dad4d4;
+}
+.singin-icon svg
+{
+  width: 1.5rem;
+  margin-left: 1.7rem;
+}
+.drop_down-menu {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-right: 0 auto;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 99%;
+}
+.navigation li a {
+  color: #222;
+  padding-bottom: 20px;
+  font-size: 13px;
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+}
+.banner-container {
+  margin: auto;
+  position: relative;
+}
+.inner-container {
+  background: #FDEBD2;
+  height: 12rem;
+}
+.jwellerry-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.accessories-drop-down:hover .jwellerry-drop-menu {
+  display: block;
+}
+.menu-details {
+  display: flex;
+  max-width: 100%;
+  margin: 10px 20px;
+}
+.section-1 {
+  width: 30%;
+}
+.jwell-heading {
+  font-size: 13px;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+.section-1 ul {
+  list-style: none;
+}
+.section-1 ul li {
+  padding: 10px 0;
+}
+.section-1 ul li a {
+  color: #222222;
+  font-family: sans-serif;
+}
+.section-1 ul li span {
+  float: right;
+  font-weight: 700;
+}
+.viewall {
+  font-size: 13px;
+  font-weight: 600 !important;
+  font-family: sans-serif;
+}
+.jwell-container-2 {
+  width: 40%;
+  margin: 0 15px;
+}
+.heading-1 {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #222222;
+}
+.jwell-container-2 ul {
+  padding: 10px 0;
+}
+.jwell-container-2 ul {
+  list-style: none;
+}
+.jwell-container-2 ul li {
+  padding: 5px 0;
+}
+.jwell-container-2 ul li a {
+  color: #222222;
+  font-family: sans-serif;
+}
+.heading-2 {
+  margin: 20px 0;
+}
+.jwell-container-3 {
+  margin: 0 15px;
+}
+.jwell-container-3 ul {
+  list-style: none;
+}
+.jwell-container-3 ul li {
+  padding: 10px 0;
+}
+.jwell-container-3 ul li a {
+  font-family: sans-serif;
+  color: #222222;
+}
+.shoes-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.clothing-drop-down:hover .shoes-drop-menu {
+  display: block;
+}
+.home-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.home-living-drop-down:hover .home-drop-menu {
+  display: block;
+}
+.party-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.wedding-party-drop-down:hover .party-drop-menu {
+  display: block;
+}
+.toys-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.toys-drop-down:hover .toys-drop-menu {
+  display: block;
+}
+.art-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.art-drop-down:hover .art-drop-menu {
+  display: block;
+}
+.craft-drop-menu {
+  background-color: #fff;
+  border: 1px solid transparent;
+  width: 95%;
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.craft-drop-down:hover .craft-drop-menu {
+  display: block;
+}
+.container-text h4 {
+  font-size: 52px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 64px;
+  padding: 22px 0 18px;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+  /* padding-bottom: 18px;
+  padding-top: 30px; */
+  color: #222222;
+  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif !important;
+}
+.content-card {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 55%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 65%;
+  cursor: pointer;
+}
+.rouded_card_container:hover {
+  border-bottom: 2px solid #000;
+}
+.container-img {
+  transition: 0.3s;
+  border: 0.5px solid rgba(34, 34, 34, 0.15) !important;
+  border-radius: 50%;
+}
+.container-img:hover {
+  transform: scale(1.1);
+}
+.container-card {
+  display: flex;
+  gap: 60px;
+}
+.container-img img {
+  border-radius: 60%;
+}
+.card-image-text {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #222222;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+.card-image-text:hover {
+  color: #595959;
+}
+.popular-gift-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #fff;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.bg-red {
+  background: #fff;
+}
+
+.container--popular-gifts {
+  display: flex;
+  gap: 10px;
+}
+.container h3 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 1rem 0;
+  color: #222222;
+}
+
+.card {
+  background: #fff;
+  max-width: 90%;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.desk-view
+{
+  font-size: 15px;
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  font-weight: 700;
+}
+.card-title  {
+  font-weight: 500;
+  color: #222222;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 0.5rem;
+}
+.card-title .green-rupee span {
+  color: green;
+}
+.card:hover {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.14);
+}
+.card-image img {
+  width: 100%;
+  display: block;
+  min-height: 32vh;
+  border-radius: 15px;
+  padding: 0.25rem;
+}
+.card-heart {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 9%;
+  right: 6%;
+  opacity: 0;
+  background-color: #fff;
+  padding: 0.752rem;
+  height: 40px;
+  width: 40px;
+  transition: all 0.1s;
+  border-radius: 80rem;
+}
+.card:hover .card-heart {
+  display: block;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.one {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+.hand-pick-grid {
+  max-width: 95%;
+  margin: auto;
+}
+.banner-container {
+  margin: auto;
+}
+.hand-pick-wra {
+  background: #fff;
+}
+.discovevr-container-cards {
+  display: flex;
+  gap: 10px;
+}
+.shop-card {
+  max-width: 50%;
+  display: flex;
+  background: #fff;
+  gap: 10px;
+  padding: 1rem 0;
+  position: relative;
+}
+.selection-card {
+  max-width: 50%;
+  display: flex;
+  background: #fff;
+  gap: 10px;
+  padding: 1rem 0;
+  position: relative;
+}
+.big-class {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: #fff;
+  gap: 10px;
+  justify-content: space-between;
+}
+.shop-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  position: relative;
+}
+.Small-imges img {
+  width: 100%;
+  display: block;
+  padding: 0.752rem;
+  border-radius: 15px;
+  position: relative;
+}
+.card-price {
+  position: absolute;
+  bottom: 2rem;
+  left: 3rem;
+  background: #dad4d4;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.card-price h6 {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #595959;
+}
+.card-price-2 {
+  position: absolute;
+  right: 7rem;
+  top: 8rem;
+  background: green;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.card-price-2 h6 {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #fff;
+}
+.card-price-3
+{
+  position: absolute;
+  right: 8rem;
+  top: 19rem;
+  background: #dad4d4;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.card-price-3 h6 {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #595959;
+}
+.card-price-4
+{
+  position: absolute;
+  right: 7rem;
+  top: 8rem;
+  background: #dad4d4;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.card-price-4 h6 {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #595959;
+}
+.card-price-5
+{
+  position: absolute;
+  right: 7rem;
+  top: 19rem;
+  background: green;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.card-price-5 h6 {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #fff;
+}
+.image-heart {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 9%;
+  right: 6%;
+  opacity: 0;
+  background-color: #fff;
+  padding: 0.752rem;
+  height: 40px;
+  width: 40px;
+  transition: all 0.1s;
+  border-radius: 80rem;
+}
+.shop-card:hover .image-heart {
+  display: block;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.selection-card:hover .image-heart {
+  display: block;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.col-text {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #222222;
+}
+.tab-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.list-col-item {
+  border: none;
+  background: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1rem 3rem;
+  color: #595959;
+  border-bottom: 2px solid #222;
+}
+.tab-item li {
+  list-style: none;
+}
+.wrapper-all-container {
+  margin-top: 50px;
+  max-width: 95%;
+  margin: auto;
+  background: #fff;
+}
+.wrapper-top-text {
+  color: #222222;
+  font-size: 28px;
+  font-weight: 700;
+}
+.top-text-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.arrow .fa {
+  margin: 0 1rem;
+  transition: 0.2s;
+}
+.arrow:hover {
+  transform: translate(0.5rem);
+}
+.wrapper-top-prar {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #595959 !important;
+}
+.etsy_gift_cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  justify-content: space-between;
+  /* padding: 1rem; */
+}
+.row-card-content {
+  max-width: 90%;
+  /* padding: 0.5rem; */
+  border: 1px solid #222;
+  background: #ffffff;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  cursor: pointer;
+}
+.row-card-content:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
+}
+.row-card-content img {
+  display: block;
+  width: 100%;
+  max-height: 30vh;
+  border-radius: 10px 10px 0 0;
+}
+.box-detalis {
+  text-align: center;
+  padding: 1rem;
+  color: #222222;
+  font-weight: 600;
+  font-size: 20px;
+}
+.document-container {
+  background: #fdebd2;
+  margin-top: 4rem;
+}
+.story-etsy-details {
+  max-width: 95%;
+  margin: auto;
+  background: #fdebd2;
+}
+.banner-text {
+  text-align: center;
+  padding: 1rem;
+}
+.banner-text h1 {
+  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #222222;
+}
+.banner-text a {
+  font-size: 14px;
+  color: #222;
+  line-height: 21px;
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+.banner-text a:hover {
+  color: #dad4d4;
+}
+.container-boxes {
+  display: flex;
+  max-width: 90%;
+  margin-top: 2rem;
+  /* gap: 50px; */
+  justify-content: space-between;
+}
+.community-box-1 {
+  /* height: auto; */
+  /* width: 70%; */
+  line-height: 30px;
+}
+.community-box-1 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+.community-box-1 p {
+  margin-top: 1rem;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 100;
+  color: #595959;
+}
+.community-box-2 {
+  /* height: auto;
+  width: 70%; */
+  line-height: 30px;
+}
+.community-box-2 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+.community-box-2 p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 100;
+  color: #595959;
+}
+.community-box-3 {
+  /* width: 65%; */
+  line-height: 30px;
+  margin: 0 1rem;
+}
+.community-box-3 h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+.community-box-3 p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: 100;
+  color: #595959;
+}
+.etsy-end-details {
+  text-align: center;
+  margin-top: 2rem;
+}
+.etsy-end-details h3 {
+  font-size: 22px;
+  line-height: 16px;
+  margin-bottom: 2.5rem;
+}
+.etsy-end-details a {
+  padding: 12px 20px;
+  background-color: transparent;
+  color: #222222;
+  border: 2px solid #000;
+  margin-top: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.etsy-end-details a:hover {
+  box-shadow: 0 4px 20px rgb(34 34 34 / 15%);
+}
+.text-message h4 {
+  text-align: center;
+  margin-top: 6rem;
+  color: #222;
+}
+.news-letters {
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.footer-search {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.class-button {
+  position: relative;
+  display: flex;
+  border-radius: 96px;
+  box-shadow: 1px 2px 4px 0 rgba(34, 34, 34, 0.1) inset;
+  background: #ffffff;
+  text-align: center !important;
+}
+.wt-input {
+  padding-left: 18px;
+  border-top-left-radius: 96px;
+  border-bottom-left-radius: 96px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  box-shadow: none;
+  background: transparent;
+  flex: 1;
+  border-color: rgba(34, 34, 34, 0.15);
+  border-right-color: rgba(34, 34, 34, 0.15);
+  border-style: solid;
+  border-right-style: solid;
+  border-width: 1px;
+  border-right-width: 1px;
+  border-radius: 6px;
+  color: #222222;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 28px;
+  height: 48px;
+  outline: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+  min-width: 0;
+  transition: border 200ms ease-out, background 200ms ease-out;
+}
+.wt-btn-input {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans",
+    "Segoe UI", "Helvetica", Arial, sans-serif;
+  position: relative;
+  padding-right: 21px;
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 48px;
+  color: #222222;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  z-index: 10;
+  transition: all 0.2s;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 96px;
+  border-bottom-right-radius: 96px;
+  border: 1px solid rgba(34, 34, 34, 0.15);
+  border-left-color: rgba(34, 34, 34, 0.15);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left: 0;
+}
+.wt-btn-input:hover
+{
+  background-color: #000;
+}
+.end-text-electric {
+  text-align: center;
+  margin-top: 8rem;
+}
+.end-text-electric h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #222222;
+}
+.footer-svg-bg svg {
+  fill: #4d6bc6 !important;
+  transform: rotate(180deg);
+  min-height: 3rem;
+  width: 100%;
+}
+.footer-wrapper {
+  background-color: #2f466c;
+  margin-top: -4px;
+}
+.footer-container {
+  max-width: 95%;
+}
+.footer-list {
+  max-width: 90%;
+  margin: auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-tab {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer-header-list {
+  display: block;
+  list-style: none;
+}
+.footer-header-list li {
+  padding: 0.5rem 0;
+}
+.footer-header-list li a {
+  color: #fff;
+  font-size: 12px;
+}
+.footer-container {
+  padding: 2rem 0;
+}
+.footer-header-list li a:hover {
+  text-decoration: underline;
+}
+.right-fooeter-content {
+  margin-top: 2rem;
+}
+.app-dowbload {
+  border: 1px solid #fff;
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.app-dowbload span {
+  font-weight: 700;
+  color: #222222;
+  background: #fff;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+}
+.app-dowbload:hover
+{
+  border: 2px solid #fff;
+}
+.sci {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.sci li {
+  list-style: none;
+  margin-top: 1rem;
+}
+.sci li a {
+  color: #fff;
+  font-size: 25px;
+  padding: 0.5rem;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: all 0.3s;
+}
+.sci li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.end-footer-details {
+  background: #232347;
+  width: 100%;
+}
+.footer-center-content {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.svg-earth {
+  max-width: 100%;
+  width: 2rem;
+}
+.svg-earth svg {
+
+  fill: #fff;
+}
+
+.global-details-left {
+  display: flex;
+  padding: 1rem 0;
+}
+.global-details-left a {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 13px;
+}
+.footer-center-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile_wrapper {
+  display: none;
+}
+.global-details-right {
+  display: flex;
+  align-items: center;
+}
+.global-details-right span {
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0.5rem;
+}
+.global-details-right a {
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.mobile-view-footer {
+  display: none;
+}
+.mobile-view-text
+{
+  display: none;
+}
+.rupee-mobi
+{
+  display: none;
+}
+.mobile-view-nav
+{
+  display: none;
+}
+@media screen and (max-width: 1500px) {
+  .mobile-discover {
+    display: none;
+  }
+  .container-boxes {
+    padding-left: 3rem;
+  }
+  .content-card {
+    width: 76%;
+  }
+  .inner-container {
+    height: 12rem;
+  }
+  .end-text-electric {
+    margin-top: 5rem;
+  }
+  .wrapper {
+    margin-bottom: -11rem;
+  }
+  .gift-container {
+    height: 80vh;
+  }
+  .card-col-1 {
+    height: 65vh;
+  }
+  .hand-pick-grid {
+    margin-top: 56px;
+  }
+  .wrapper-all-container {
+    margin-top: 50px;
+  }
+  .slection-container {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .logo-text {
+    font-weight: 700;
+  }
+  .story-etsy-details {
+    margin-top: 7rem;
+  }
+  .mobile-view-nav
+  {
+    display: block;
+  }
+  .desktop_wrapper
+  {
+    display: none;
+  }
+  .singin-icon svg
+  {
+    margin-left: 0.1rem;
+    margin-right: 0.5rem;
+  }
+  .search-container
+  {
+    width: 82%;
+    margin-left: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .mobile-view-upper
+  {
+    display: flex;
+  }
+  .wrapper-logo
+  {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .mobile-view-lowe
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sigin-text
+  {
+    margin-right: 1.5rem;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .right-nav
+  {
+    margin-right: 1rem;
+  }
+  .logo-svg svg
+  {
+    margin-left: 0.5rem;
+    width: 4rem;
+  }
+  .search-container input
+  {
+    padding-top: 15px;
+  }
+  .list-col-item {
+    font-size: 18px;
+    font-weight: 400 !important;
+    padding: 2rem 0;
+    border-bottom: none;
+    padding-right: 10px;
+  }
+  .col-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .container-text h4
+  {
+    font-size:36px;
+    line-height: 43px;
+    white-space: normal;
+  }
+  .discover_col .card-price {
+    display: none;
+  }
+  .mobile_text_head {
+    margin: 0 20px;
+  }
+  .etsy-content-mobile {
+    display: flex;
+    list-style: none;
+  }
+  .etsy-content-mobile li a {
+    color: #222222;
+  }
+  .svg-cart-mobile {
+    width: 1rem;
+  }
+  .container {
+    max-width: 1070%;
+  }
+  .card {
+    max-width: 40%;
+    margin: auto;
+  }
+  .desk-view
+  {
+    display: none;
+  }
+  .hamburge
+  {
+    display: flex;
+    cursor: pointer;
+  }
+  .hamburge svg
+  {
+    width: 1.5rem;
+    margin-left: -2.7rem;
+  }
+  .gift-stars
+  {
+    display: none;
+  }
+  .mobile-view-text
+  {
+    display: block;
+  }
+  .green-rupee
+  {
+    display: none;
+  }
+  .mobile-view-text
+  {
+    font-size: 14px;
+  }
+  .black-text 
+  {
+    font-weight: 600;
+  }
+  .rupee-mobi
+  {
+    display: block;
+    display: flex;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  .rupee-mobi h4
+  {
+    text-decoration: line-through;
+    color: green;
+    font-size: 13px;
+    font-size: 12px;
+  }
+  .rupee-mobi h2
+  {
+    color: green;
+    font-size: 12px;
+  }
+  .container--popular-gifts {
+    flex-wrap: wrap;
+  }
+  .wrapper-all-container {
+    max-width: 80%;
+  }
+  .row-card-content {
+    max-width: 40%;
+    margin: auto;
+  }
+  .big-class {
+    flex-direction: row;
+    width: 85%;
+  }
+  .selection-card {
+    flex-direction: column-reverse;
+    /* margin: auto; */
+    max-width: 117%;
+  }
+  .card-price-3
+  {
+    right: 11rem;
+    top: 8rem;
+  }
+  .card-price-2
+  {
+    right: 23rem;
+  }
+  .card-price-5
+  {
+    right: 10rem;
+    top: 8rem;
+  }
+  .card-price-4
+  {
+    right: 24rem;
+    top: 8rem;
+  }
+  
+.card-price 
+{
+  left: 1rem;
+}
+  .shop-card {
+    flex-direction: column-reverse;
+    max-width: 117%;
+  }
+  .discovevr-container-cards {
+    flex-direction: column;
+  }
+  .etsy_gift_cards {
+    flex-wrap: wrap;
+  }
+  .mobile_wrapper {
+    display: block;
+    max-width: 95%;
+    margin: auto;
+  }
+  .etsy-content-mobile {
+    list-style: none;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .etsy-content-mobile li a  {
+    padding: 10px 17px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: grid;
+    place-content: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-items: center;
+    color: #222;
+    transition:all  0.8s;
+    font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+      Arial, sans-serif;
+  }
+  
+  .etsy-content-mobile li a:hover {
+    background: rgba(172, 158, 158, 0.2);
+  }
+  .mobile_text_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-view-toggle {
+    justify-content: center;
+  }
+  .feedback-text {
+    font-weight: 400;
+  }
+  .wrapper-all-container {
+    margin-top: 3rem;
+  }
+  .wrapper-top-text {
+    font-size: 17px;
+    text-align: center;
+    margin-left: 6rem;
+  }
+  .wrapper-top-prar {
+    text-align: center;
+    margin: 0 1rem;
+    font-size: 14px;
+  }
+  .header-bottom {
+    display: flex;
+    padding-bottom: 10px;
+    
+  }
+  .search-top {
+    background: #f3f3f3;
+    margin-top: 0;
+  }
+  .drop_down-menu {
+    display: none;
+  }
+  .container-text h1 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+  }
+  .container-card {
+    flex-direction: column;
+    width: 100%;
+    height: 295px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: -2rem;
+  }
+  .rouded_card_container {
+    width: 95px;
+  }
+  .container-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-container {
+    height: 310px;
+  }
+  .card-image-text {
+    color: #222;
+    font-size: 12px;
+  }
+  .card-image img
+  {
+    padding: 0;
+  }
+  .content-card {
+    top: 155px;
+  }
+  .popular-gift-wrapper {
+    margin-top: 20rem;
+  }
+  .community-box-1 {
+    width: auto;
+  }
+  .community-box-1 h1 {
+    text-align: center;
+    font-weight: 600;
+  }
+  .community-box-3 h1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .community-box-1 p {
+    line-height: 15px;
+    width: 100%;
+  }
+  .popular-text {
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+  }
+  .etsy-end-details a {
+    margin-top: 50%;
+  }
+  .news-letters{
+    padding: 2rem;
+  }
+  .card-col-1 {
+    min-width: 48%;
+    height: 62vh;
+  }
+  .card-col-1 img {
+    max-width: 100%;
+    height: 45vh;
+  }
+  .sci li a {
+    font-size: 20px;
+    margin: 0;
+  }
+  .mobile-discover {
+    display: none;
+  }
+  .tab-item-mobi {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2rem;
+  }
+  .tab-item-mobi li {
+    list-style: none;
+    padding: 10px 0;
+  }
+  .list-col-item-mobi {
+    border: none;
+    background: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+    border-bottom: 2px solid #222;
+    text-align: center;
+  }
+  .community-box-2 {
+    width: auto;
+  }
+  .community-box-2 h1 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .community-box-2 p {
+    line-height: 15px;
+  }
+  .community-box-3 {
+    width: auto;
+  }
+  .community-box-3 p {
+    line-height: 15px;
+  }
+  .text-message h4 {
+    display: none;
+  }
+  .feedback {
+    width: 10rem;
+  }
+  .etsy-end-details h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .end-text-electric {
+    margin-top: 0;
+  }
+  .news-letters {
+    margin-left: -0.5rem;
+  }
+  .easy-end-details {
+    margin-top: 10rem;
+    height: auto;
+    font-size: 15px;
+  }
+  .etsy_gift_cards {
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .end-text-electric {
+    display: none;
+  }
+  .box-detalis {
+    font-size: 15px;
+  }
+  .tab-item {
+    margin: 0;
+  }
+  .container h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .footer-list {
+    flex-direction: column;
+    display: none;
+  }
+  .footer-wrapper {
+    height: auto;
+  }
+  .end-footer-details {
+    height: auto;
+    flex-direction: column;
+  }
+  .footer-center-content {
+    flex-direction: column;
+  }
+  .footer-section-end {
+    margin-top: 35px;
+  }
+  .mobile-view-footer {
+    display: block;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: #2f466c;
+    overflow: hidden;
+    display: none;
+  }
+  .panel li  {
+    list-style: none;
+  }
+  .panel ul li a  {
+    list-style: none;
+    font-size: 18px;
+  }
+  .panel li a {
+    color: #fff;
+    font-size: 13px;
+    font-family: sans-serif !important;
+    font-weight: 400;
+  }
+  .accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.8s;
+  }
+  .mobile-view-drop-down {
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.8s;
+  }
+  .hamburg {
+    padding: 18px 3px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: -26px;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: -10px;
+    transform: .2s;
+    
+  }
+  .hamburg:hover {
+    background:rgba(0, 0, 0, 0.2) ;
+  }
+  .hamburg span {
+    float: right;
+    margin-top: -18px;
+    border: 2px;
+    margin-right: 15px;
+  }
+  .right-footer-content {
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .global-details-left:hover
+  {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 300px;
+  }
+  .app-dowbload {
+    margin: 0 3.8rem;
+  }
+  .sci {
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .popular-gift-wrapper {
+    margin-top: 21rem;
+  }
+  .wrapper {
+    margin-top: 10rem;
+  }
+  .search-top
+  {
+    width: 82%;
+  }
+  .container-text
+  {
+    margin-bottom: 2rem;
+  }
+}
